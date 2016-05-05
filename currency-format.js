@@ -2,10 +2,9 @@
  * currency-format.js v0.0.1
  *
  * Freely distributable under the MIT license.
- * Portions of accounting.js are inspired or borrowed from underscore.js
  *
  * Full details and documentation:
- * http://jojo5716.github.io/currency-format.js/
+ * http://currencyformat.com
  */
 
 (function(root, undefined) {
@@ -24,7 +23,7 @@
     // currency and number formatting
     lib.settings = {
         DEFAULT: {
-            symbol : "â‚¬",        // default currency symbol is 'â‚¬'
+            symbol : "€",        // default currency symbol is '€'
             comma : ",",       // decimal point separator
             thousands : ".",      // thousands separator
             currency : "EUR",    // default currency code
